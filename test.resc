@@ -9,6 +9,9 @@ path add $ORIGIN
 
 include @platforms/devices/AK4493S.cs
 
+include @platforms/peripherals/STM32H7_PWR.cs
+include @platforms/peripherals/STM32F7_I2C_Fixed.cs
+
 machine LoadPlatformDescription $ORIGIN/platforms/boards/stm32h723.repl
 
 : Ensure "erased" state for all of the internal STM32F2 flash:

@@ -13,3 +13,8 @@ single fork.
 |:--------|:-------------------------------------------------------------------
 | `main`  | test fails to execute successfully against latest and stable renode worlds
 | `fixed` | updated models to allow successful execution of the application
+
+## Notes
+
+The `fixed` branch `STM32H7_PWR.cs` model is the same as provided in
+the mirroe: https://github.com/RallySmith/renode-issue-stm32h7-adc-dma
